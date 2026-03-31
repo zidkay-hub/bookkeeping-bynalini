@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@theme {
+  --color-navy: #002147;
+  --color-gold: #D4AF37;
+  --color-gold-hover: #B8860B;
+  
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply font-sans text-gray-900 bg-white;
+}
+
+.btn-primary {
+  @apply bg-navy text-white px-6 py-3 rounded-md font-semibold transition-all hover:opacity-90 active:scale-95;
+}
+
+.btn-accent {
+  @apply bg-gold text-navy px-6 py-3 rounded-md font-semibold transition-all hover:bg-gold-hover active:scale-95;
+}
+
+.section-padding {
+  @apply py-16 md:py-24 px-6 md:px-12 max-w-7xl mx-auto;
+}
+
+.card {
+  @apply bg-white p-8 rounded-xl shadow-sm border border-gray-100 transition-all hover:shadow-md;
+}
