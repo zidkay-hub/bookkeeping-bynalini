@@ -40,7 +40,13 @@ export default function Home() {
       title: 'Financial Reports',
       desc: 'Clear, easy-to-understand reports to help you make informed decisions.',
       icon: <BarChart3 className="text-gold" size={32} />
+    },
+    {
+      title: 'Quarterly Meetings',
+      desc: 'Review the books, answer your questions, confirm expectations, and plan changes for the next quarter.',
+      icon: <CheckCircle2 className="text-gold" size={32} />
     }
+
   ];
 
   const whyChooseUs = [
