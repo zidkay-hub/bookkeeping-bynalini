@@ -57,13 +57,13 @@ export default function Navbar() {
 
             {/* Socials & CTA */}
             <div className="flex items-center space-x-5 border-l border-navy/10 pl-6">
-              <a href="https://facebook.com" className="text-navy/70 hover:text-gold transition-all hover:scale-110">
+              <a href="https://web.facebook.com/profile.php?id=61583864663666" target="_blank" rel="noopener noreferrer" className="text-navy/70 hover:text-gold transition-all hover:scale-110">
                 <Facebook size={18} />
               </a>
-              <a href="https://instagram.com" className="text-navy/70 hover:text-gold transition-all hover:scale-110">
+              <a href="https://www.instagram.com/bookkeepingbynalini/" target="_blank" rel="noopener noreferrer" className="text-navy/70 hover:text-gold transition-all hover:scale-110">
                 <Instagram size={18} />
               </a>
-              <a href="https://linkedin.com" className="text-navy/70 hover:text-gold transition-all hover:scale-110">
+              <a href="https://www.linkedin.com/in/bookkeepingbynalini" target="_blank" rel="noopener noreferrer" className="text-navy/70 hover:text-gold transition-all hover:scale-110">
                 <Linkedin size={18} />
               </a>
               <Link to="/contact" className="bg-navy text-white text-xs font-bold py-2.5 px-6 rounded-full hover:bg-gold hover:shadow-md transition-all active:scale-95">
@@ -101,10 +101,18 @@ export default function Navbar() {
               ))}
               <hr className="border-navy/5" />
               <div className="flex justify-center space-x-8 py-2">
-                <Facebook size={24} className="text-navy" />
-                <Instagram size={24} className="text-navy" />
-                <Linkedin size={24} className="text-navy" />
-              </div>
+  <a href="https://web.facebook.com/profile.php?id=61583864663666" target="_blank" rel="noopener noreferrer" className="hover:opacity-75 transition-opacity">
+    <Facebook size={24} className="text-navy" />
+  </a>
+  
+  <a href="https://www.instagram.com/bookkeepingbynalini/" target="_blank" rel="noopener noreferrer" className="hover:opacity-75 transition-opacity">
+    <Instagram size={24} className="text-navy" />
+  </a>
+  
+  <a href="https://www.linkedin.com/in/bookkeepingbynalini" target="_blank" rel="noopener noreferrer" className="hover:opacity-75 transition-opacity">
+    <Linkedin size={24} className="text-navy" />
+  </a>
+</div>
               <Link to="/contact" onClick={() => setIsOpen(false)} className="bg-gold text-white font-bold py-4 rounded-2xl">
                 Free Consultation
               </Link>
