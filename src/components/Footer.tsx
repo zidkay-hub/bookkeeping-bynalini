@@ -3,7 +3,7 @@ import { Facebook, Instagram, Linkedin, Mail, Phone, MapPin } from 'lucide-react
 
 export default function Footer() {
   return (
-    <footer className="bg-navy text-white pt-16 pb-8">
+    <footer className="bg-navy text-white pt-16 pb-8 border-t-4 border-gold shadow-2xl">
       <div className="max-w-7xl mx-auto px-6 md:px-12 grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
         <div>
           <h3 className="text-2xl font-bold mb-2">Bookkeeping by Nalini</h3>
@@ -26,10 +26,10 @@ export default function Footer() {
         <div>
           <h4 className="text-lg font-semibold mb-6 text-gold">Quick Links</h4>
           <ul className="space-y-4">
-            <li><Link to="/" className="text-gray-400 hover:text-white transition-colors">Home</Link></li>
-            <li><Link to="/blog" className="text-gray-400 hover:text-white transition-colors">Insights & Tips</Link></li>
-            <li><Link to="/contact" className="text-gray-400 hover:text-white transition-colors">Contact Us</Link></li>
-            <li><Link to="/contact" className="text-gray-400 hover:text-white transition-colors">Book Consultation</Link></li>
+            <li><Link to="/" className="text-gray-400 hover:text-gold transition-colors">Home</Link></li>
+            <li><Link to="/blog" className="text-gray-400 hover:text-gold transition-colors">Insights & Tips</Link></li>
+            <li><Link to="/contact" className="text-gray-400 hover:text-gold transition-colors">Contact Us</Link></li>
+            <li><Link to="/contact" className="text-gray-400 hover:text-gold transition-colors">Book Consultation</Link></li>
           </ul>
         </div>
 
